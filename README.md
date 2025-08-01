@@ -164,7 +164,7 @@ app.email.regex=^[A-Za-z0-9+_.-]+@(.+)$
 
 1. **Clonar proyecto**
 
-   git clone https://Josuehqz009@bitbucket.org/Josuehqz009/user-management-api.git
+   git clone https://github.com/coyoteroger/user-management-api.git
    cd user-management-api
 
 2. **Compilar el proyecto:**
