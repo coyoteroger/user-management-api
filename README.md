@@ -158,26 +158,27 @@ app.email.regex=^[A-Za-z0-9+_.-]+@(.+)$
 
 ### Prerrequisitos
 - Java 17 
-- Maven 3.5 en adelante
+- Maven 3.6.3 en adelante
 
 ### Ejecucion manual
 
 1. **Clonar proyecto**
 
    git clone https://github.com/coyoteroger/user-management-api.git
+
    cd user-management-api
 
-2. **Compilar el proyecto:**
+3. **Compilar el proyecto:**
    ```bash
    mvn clean compile install
    ```
 
-3. **Ejecutar las pruebas:**
+4. **Ejecutar las pruebas:**
    ```bash
    mvn test
    ```
 
-4. **Ejecutar la aplicación:**
+5. **Ejecutar la aplicación:**
    ```bash
    mvn spring-boot:run
    ```
@@ -188,7 +189,7 @@ app.email.regex=^[A-Za-z0-9+_.-]+@(.+)$
    java -jar target/user-management-api-1.0-SNAPSHOT.jar
    ```
 
-5. **Acceder a la aplicación:**
+6. **Acceder a la aplicación:**
    - API: http://localhost:8080
    - Swagger UI: http://localhost:8080/swagger-ui/index.html
    - H2 Console: http://localhost:8080/h2-console
