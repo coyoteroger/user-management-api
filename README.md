@@ -158,13 +158,14 @@ app.email.regex=^[A-Za-z0-9+_.-]+@(.+)$
 
 ### Prerrequisitos
 - Java 17 
-- Maven 3.5 en adelante
+- Maven 3.6.3 en adelante
 
 ### Ejecucion manual
 
 1. **Clonar proyecto**
 
    git clone https://github.com/coyoteroger/user-management-api.git
+   
    cd user-management-api
 
 2. **Compilar el proyecto:**
